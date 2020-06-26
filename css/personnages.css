@@ -1,0 +1,565 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+nav li {
+    margin-right: 20px;
+}
+
+#top_screen{
+    background: url("../images/danganronpa_1_acceuil.jpg") no-repeat;
+    background-size: cover;
+}
+
+.jumbotron{
+    padding: 0;
+}
+
+#title-text-box{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#character-title {
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.chara_page_box{
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#makoto_box_chara_page{
+    background-image: url("../images/cast1/makoto_promo_art.png");
+    background-size: cover;
+}
+
+#taka_box_chara_page{
+    background-image: url("../images/cast1/taka_promo_art.png");
+    background-size: cover;
+}
+
+#mondo_box_chara_page{
+    background-image: url("../images/cast1/mondo_promo_art.png");
+    background-size: cover;
+}
+
+#hiro_box_chara_page{
+    background-image: url("../images/cast1/hiro_promo_art.png");
+    background-size: cover;
+}
+
+#byakuya_box_chara_page{
+    background-image: url("../images/cast1/byakuya_promo_art.png");
+    background-size: cover;
+}
+
+#leon_box_chara_page{
+    background-image: url("../images/cast1/leon_promo_art.png");
+    background-size: cover;
+}
+
+#hifumi_box_chara_page{
+    background-image: url("../images/cast1/hifumi_promo_art.png");
+    background-size: cover;
+}
+
+#chihiro_box_chara_page{
+    background-image: url("../images/cast1/chihiro_promo_art.png");
+    background-size: cover;
+}
+
+#sayaka_box_chara_page{
+    background-image: url("../images/cast1/sayaka_promo_art.png");
+    background-size: cover;
+}
+
+#kyoko_box_chara_page{
+    background-image: url("../images/cast1/kyoko_promo_art.png");
+    background-size: cover;
+}
+
+#aoi_box_chara_page{
+    background-image: url("../images/cast1/aoi_promo_art.png");
+    background-size: cover;
+}
+
+#sakura_box_chara_page{
+    background-image: url("../images/cast1/sakura_promo_art.png");
+    background-size: cover;
+}
+
+#celestia_box_chara_page{
+    background-image: url("../images/cast1/celestia_promo_art.png");
+    background-size: cover;
+}
+
+#toko_box_chara_page{
+    background-image: url("../images/cast1/toko_promo_art.png");
+    background-size: cover;
+}
+
+#jack_box_chara_page{
+    background-image: url("../images/cast1/jack_promo_art.png");
+    background-size: cover;
+}
+
+#mukuro_box_chara_page{
+    background-image: url("../images/cast1/mukuro_promo_art.png");
+    background-size: cover;
+}
+
+#junko_box_chara_page{
+    background-image: url("../images/cast1/junko_promo_art.png");
+    background-size: cover;
+}
+/* Cast 2 */
+#hajime_box_chara_page{
+    background-image: url("../images/cast2/hajime_promo_art.png");
+    background-size: cover;
+}
+
+#nav_chara_page{
+    float: right;
+    background-color: gray;
+    height: 100%;
+    width: 20%px;
+}
+
+#nagito_box_chara_page{
+    background-image: url("../images/cast2/nagito_promo_art.png");
+    background-size: cover;
+}
+
+#imposter_box_chara_page{
+    background-image: url("../images/cast2/imposter_promo_art.png");
+    background-size: cover;
+}
+
+#neko_box_chara_page{
+    background-image: url("../images/cast2/nekomaru_promo_art.png");
+    background-size: cover;
+}
+
+#kazuichi_box_chara_page{
+    background-image: url("../images/cast2/kazuichi_promo_art.png");
+    background-size: cover;
+}
+
+#fuyuhiko_box_chara_page{
+    background-image: url("../images/cast2/fuyuhiko_promo_art.png");
+    background-size: cover;
+}
+
+#gundham_box_chara_page{
+    background-image: url("../images/cast2/gundham_promo_art.png");
+    background-size: cover;
+}
+
+#teruteru_box_chara_page{
+    background-image: url("../images/cast2/teruteru_promo_art.png");
+    background-size: cover;
+}
+
+#chiaki_box_chara_page{
+    background-image: url("../images/cast2/chiaki_promo_art.png");
+    background-size: cover;
+}
+
+#sonia_box_chara_page{
+    background-image: url("../images/cast2/sonia_promo_art.png");
+    background-size: cover;
+}
+
+#akane_box_chara_page{
+    background-image: url("../images/cast2/akane_promo_art.png");
+    background-size: cover;
+}
+
+#peko_box_chara_page{
+    background-image: url("../images/cast2/peko_promo_art.png");
+    background-size: cover;
+}
+
+#ibuki_box_chara_page{
+    background-image: url("../images/cast2/ibuki_promo_art.png");
+    background-size: cover;
+}
+
+#mikan_box_chara_page{
+    background-image: url("../images/cast2/mikan_promo_art.png");
+    background-size: cover;
+}
+
+#mahiru_box_chara_page{
+    background-image: url("../images/cast2/mahiru_promo_art.png");
+    background-size: cover;
+}
+
+#hiyoko_box_chara_page{
+    background-image: url("../images/cast2/hiyoko_promo_art.png");
+    background-size: cover;
+}
+
+/* fiche perso-debut */
+/* cast 1 */
+
+#makoto_page {
+    background-image: url("../images/cast1/makoto_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#taka_page {
+    background-image: url("../images/cast1/taka_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#mondo_page {
+    background-image: url("../images/cast1/mondo_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#hiro_page {
+    background-image: url("../images/cast1/hiro_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#byakuya_page {
+    background-image: url("../images/cast1/byakuya_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#leon_page {
+    background-image: url("../images/cast1/leon_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#hifumi_page {
+    background-image: url("../images/cast1/hifumi_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#chihiro_page {
+    background-image: url("../images/cast1/chihiro_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#sayaka_page {
+    background-image: url("../images/cast1/sayaka_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#kyoko_page {
+    background-image: url("../images/cast1/kyoko_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#aoi_page {
+    background-image: url("../images/cast1/aoi_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#sakura_page {
+    height: 91%;    
+    display: flex;
+    align-items: center;
+}
+
+#sakura_img img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100% !important;
+}
+
+#celestia_page {
+    background-image: url("../images/cast1/celestia_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#toko_page {
+    background-image: url("../images/cast1/toko_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#mukuro_page {
+    background-image: url("../images/cast1/mukuro_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#junko_page {
+    background-image: url("../images/cast1/junko_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+/* Cast 2 */
+
+#checkpoint_cast2{
+    background-image: url("../images/danganronpa2accueil.png");
+    background-size: cover;
+}
+
+#hajime_page {
+    background-image: url("../images/cast2/hajime_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#nagito_page {
+    background-image: url("../images/cast2/nagito_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#imposter_page {
+    background-image: url("../images/cast2/imposter_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#nekomaru_page {
+    background-image: url("../images/cast2/nekomaru_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#kazuichi_page {
+    background-image: url("../images/cast2/kazuichi_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#fuyuhiko_page {
+    background-image: url("../images/cast2/fuyuhiko_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#gundham_page {
+    background-image: url("../images/cast2/gundham_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#teruteru_page {
+    background-image: url("../images/cast2/teruteru_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#chiaki_page {
+    background-image: url("../images/cast2/chiaki_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#sonia_page {
+    background-image: url("../images/cast2/sonia_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#akane_page {
+    background-image: url("../images/cast2/akane_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#peko_page {
+    background-image: url("../images/cast2/peko_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#ibuki_page {
+    background-image: url("../images/cast2/ibuki_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#mikan_page {
+    background-image: url("../images/cast2/mikan_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#mahiru_page {
+    background-image: url("../images/cast2/mahiru_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+#hiyoko_page {
+    background-image: url("../images/cast2/hiyoko_promo_art.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91%;
+    display: flex;
+    align-items: center;
+}
+
+
+#polygon-title {
+    clip-path: polygon(0 4%, 100% 0, 88% 25%, 20% 19%);
+    position: absolute;
+    background-color: rgb(255, 27, 122);
+    width: 65%;
+    right: 50;
+    top: -50;
+    height: 70%;
+    z-index: -1;
+}
+
+#polygon-content {
+    clip-path: polygon(0 16%, 100% 0, 90% 100%, 0 94%);
+    position: absolute;
+    background-color: black;
+    top: -135;
+    right: 0;
+    width: 200%;
+    float: right;
+    height: 140%;
+    z-index: -2;
+}
+
+#polygon-content-text {
+    position: absolute;
+    top: 80;
+    right: 120;
+    width: 90%;
+    height: auto;
+}
+
+#description_perso {
+    max-width: 80%;
+    margin-left: 60px;
+}
+
+ #perso-name {
+    position: absolute;
+    top: -75px;
+    right: 150px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    z-index: 50;
+    
+}
+
+#perso-name h1{
+    font-size: 55px;
+    -webkit-text-stroke: 2px black;
+    margin-bottom: -10px;
+}
+
+#perso-name span{
+    font-size: 20px;
+    float: right;
+}
