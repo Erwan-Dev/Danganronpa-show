@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+nav li {
+    margin-right: 20px;
+}
+
+.jumbotron {
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/background_story.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#dr1_title {
+    background-image: url("../images/dr1_cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+
+#dr2_title {
+    background-image: url("../images/sdr2_cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#title-text-box{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#character-title {
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.chapter_table{
+    background-color: gray;
+}
+
+#container-text-story {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+
+#danganronpa_1, #intrigue1, #gameplay1, #school-life1, #chapter1, #community1, #danganronpa_2, #intrigue2, #gameplay2, #chapter2, #community2 {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+h3, h2{
+    color: rgba(255, 27, 122, 0.7);
+}
+
+p{
+    line-height: 1.4;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+h5 {
+    padding: 15px;
+    text-decoration: underline;
+}
