@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+nav li {
+    margin-right: 20px;
+}
+
+#landing {
+    background: url("../images/new_academy.png") no-repeat;
+    background-size: cover;
+}
+
+#title-text-box{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron{
+    padding: 0;
+}
+
+#character-title {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#makoto_box{
+    background-image: url("../images/cast1/makoto_promo_art.png");
+    background-size: cover;
+    background-position-x: 90%;
+}
+
+#makoto_box_text{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#hajime_box{
+    background-image: url("../images/cast2/hajime_promo_art.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#hajime_box_text{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#junko_box{
+    background-image: url("../images/cast1/junko_promo_art.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#junko_box_text{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.card{
+    border: none
+}
+
+#story-p{
+    padding: 15px;
+    border-left: 1px solid gray;
+    margin-left: 10px;
+}
+
+.story-panel{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10% 0 0 10%;
+}
+
+#about-page{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+#about-left{
+    margin-left: 10px;
+}
+
+.about-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}
